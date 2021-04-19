@@ -1,3 +1,6 @@
+import pip
+pip.main(["install", "enum34"])
+
 import os.path
 from setuptools import setup
 from pyxlsb2 import __version__
@@ -35,7 +38,6 @@ setup(
     ],
 
     packages=['pyxlsb2'],
-
 
     zip_safe=False
 )
